@@ -1,3 +1,5 @@
+/**************forLoop****************/
+
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
   for (let i = 0; i < musicians.length; i++) 
@@ -7,6 +9,8 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return array
 }
+
+/**************whileLoop****************/
 
 function johnLennonFacts(facts) {
   var array = [];
@@ -18,11 +22,13 @@ function johnLennonFacts(facts) {
   return array
 }
 
+/**************doWhileLoop****************/
+
 function iLoveTheBeatles(number) {
   var array = [];
   do {
     array.push("I love the Beatles!");
-    number++;
+    number;
   } while (number < 15);
   return array
-} 
+}  
